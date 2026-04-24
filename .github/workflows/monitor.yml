@@ -1,6 +1,8 @@
 name: CDF/EFK Monitor
 
 on:
+  push:
+    branches: [master]
   schedule:
     # Toutes les 30 min entre 6h-22h UTC (8h-00h heure suisse)
     - cron: '*/30 6-22 * * *'
