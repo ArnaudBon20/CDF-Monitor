@@ -1,0 +1,46 @@
+name: Test Threema Alert
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      - name: Send test alert
+        env:
+          THREEMA_GATEWAY_ID: ${{ secrets.THREEMA_GATEWAY_ID }}
+          THREEMA_GATEWAY_SECRET: ${{ secrets.THREEMA_GATEWAY_SECRET }}
+          THREEMA_RECIPIENT_ID: ${{ secrets.THREEMA_RECIPIENT_ID }}
+        run: |
+          python3 -c "
+          from notifier import send_alert
+          from datetime import datetime, timezone
+
+          test = [
+              {
+                  'source': 'rss',
+                  'channel': 'NZZ Schweiz',
+                  'text': 'Die Eidgenössische Finanzkontrolle (EFK) hat einen neuen Prüfbericht zur IT-Sicherheit veröffentlicht.',
+                  'url': 'https://www.nzz.ch/schweiz/efk-test',
+                  'msg_id': 'test_1',
+                  'keywords': ['EFK', 'Finanzkontrolle'],
+                  'timestamp': datetime.now(timezone.utc).isoformat()
+              },
+              {
+                  'source': 'telegram',
+                  'channel': '@swissinfofrench',
+                  'text': 'Le CDF critique la gestion du projet de digitalisation de la Confédération.',
+                  'url': 'https://t.me/swissinfofrench/1234',
+                  'msg_id': 'test_2',
+                  'keywords': ['CDF'],
+                  'timestamp': datetime.now(timezone.utc).isoformat()
+              }
+          ]
+          send_alert(test)
+          "
