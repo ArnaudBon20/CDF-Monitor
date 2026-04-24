@@ -36,6 +36,6 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/state.json
+          git add data/state.json data/mentions.json
           git diff --staged --quiet || git commit -m "🔄 Update monitor state - $(date +'%Y-%m-%d %H:%M')"
           git push

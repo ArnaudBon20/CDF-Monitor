@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CDF/EFK Monitor</title>
+    <style>
+        :root {
+            --red: #EA5A4F;
+            --blue: #003399;
+            --blue-light: #e8edf7;
+            --gray-50: #f8f9fa;
+            --gray-100: #f1f3f5;
+            --gray-200: #e9ecef;
+            --gray-400: #ced4da;
+            --gray-600: #868e96;
+            --gray-800: #343a40;
+            --gray-900: #212529;
+            --green: #2b8a3e;
+            --orange: #e67700;
+            --radius: 10px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--gray-50);
+            color: var(--gray-900);
+            line-height: 1.5;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, var(--blue), #002266);
+            color: white;
+            padding: 1.5rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        header h1 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: .5rem;
+        }
+        header .subtitle {
+            font-size: .85rem;
+            opacity: .8;
+            font-weight: 400;
+        }
+        #status-badge {
+            background: rgba(255,255,255,.15);
+            padding: .4rem .8rem;
+            border-radius: 20px;
+            font-size: .8rem;
+            display: flex;
+            align-items: center;
+            gap: .4rem;
+        }
+        #status-badge .dot {
+            width: 8px; height: 8px;
+            border-radius: 50%;
+            background: #51cf66;
+            display: inline-block;
+        }
+
+        /* Layout */
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 1.5rem;
+        }
+
+        /* Stats row */
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        .stat-card {
+            background: white;
+            border-radius: var(--radius);
+            padding: 1.2rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,.06);
+            border-left: 4px solid var(--blue);
+        }
+        .stat-card.red { border-left-color: var(--red); }
+        .stat-card.green { border-left-color: var(--green); }
+        .stat-card.orange { border-left-color: var(--orange); }
+        .stat-card .label {
+            font-size: .75rem;
+            text-transform: uppercase;
+            letter-spacing: .05em;
+            color: var(--gray-600);
+            margin-bottom: .3rem;
+        }
+        .stat-card .value {
+            font-size: 1.8rem;
+            font-weight: 700;
+        }
+        .stat-card .detail {
+            font-size: .8rem;
+            color: var(--gray-600);
+            margin-top: .2rem;
+        }
+
+        /* Filters */
+        .filters {
+            display: flex;
+            gap: .5rem;
+            margin-bottom: 1.2rem;
+            flex-wrap: wrap;
+        }
+        .filter-btn {
+            padding: .4rem .9rem;
+            border-radius: 20px;
+            border: 1px solid var(--gray-200);
+            background: white;
+            font-size: .8rem;
+            cursor: pointer;
+            transition: all .15s;
+            color: var(--gray-800);
+        }
+        .filter-btn:hover { border-color: var(--blue); color: var(--blue); }
+        .filter-btn.active {
+            background: var(--blue);
+            color: white;
+            border-color: var(--blue);
+        }
+
+        /* Mentions list */
+        .mentions-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+        .mentions-header h2 { font-size: 1.1rem; }
+        .mention-count {
+            font-size: .8rem;
+            color: var(--gray-600);
+        }
+
+        .mention-card {
+            background: white;
+            border-radius: var(--radius);
+            padding: 1rem 1.2rem;
+            margin-bottom: .8rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,.06);
+            border-left: 4px solid var(--gray-200);
+            transition: border-color .15s;
+        }
+        .mention-card:hover { border-left-color: var(--red); }
+        .mention-card.source-telegram { border-left-color: #0088cc; }
+        .mention-card.source-rss { border-left-color: var(--orange); }
+        .mention-card.source-reddit { border-left-color: #ff4500; }
+
+        .mention-meta {
+            display: flex;
+            gap: .8rem;
+            align-items: center;
+            margin-bottom: .4rem;
+            flex-wrap: wrap;
+        }
+        .source-tag {
+            font-size: .7rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: .04em;
+            padding: .15rem .5rem;
+            border-radius: 4px;
+            color: white;
+        }
+        .source-tag.telegram { background: #0088cc; }
+        .source-tag.rss { background: var(--orange); }
+        .source-tag.reddit { background: #ff4500; }
+
+        .mention-channel {
+            font-size: .85rem;
+            font-weight: 600;
+            color: var(--gray-800);
+        }
+        .mention-time {
+            font-size: .75rem;
+            color: var(--gray-600);
+            margin-left: auto;
+        }
+        .mention-text {
+            font-size: .9rem;
+            color: var(--gray-800);
+            margin: .4rem 0;
+            line-height: 1.6;
+        }
+        .mention-text mark {
+            background: #fff3bf;
+            padding: .1rem .2rem;
+            border-radius: 2px;
+        }
+        .mention-keywords {
+            display: flex;
+            gap: .3rem;
+            flex-wrap: wrap;
+            margin-top: .5rem;
+        }
+        .keyword-tag {
+            font-size: .7rem;
+            padding: .15rem .45rem;
+            background: var(--blue-light);
+            color: var(--blue);
+            border-radius: 4px;
+            font-weight: 500;
+        }
+        .mention-link {
+            display: inline-block;
+            margin-top: .5rem;
+            font-size: .8rem;
+            color: var(--blue);
+            text-decoration: none;
+        }
+        .mention-link:hover { text-decoration: underline; }
+
+        /* Empty state */
+        .empty-state {
+            text-align: center;
+            padding: 3rem 1rem;
+            color: var(--gray-600);
+        }
+        .empty-state .icon { font-size: 3rem; margin-bottom: .8rem; }
+        .empty-state p { font-size: .95rem; }
+
+        /* Sources section */
+        .sources-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+        .source-section {
+            background: white;
+            border-radius: var(--radius);
+            padding: 1rem 1.2rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,.06);
+        }
+        .source-section h3 {
+            font-size: .9rem;
+            margin-bottom: .6rem;
+            display: flex;
+            align-items: center;
+            gap: .4rem;
+        }
+        .source-section ul {
+            list-style: none;
+            font-size: .8rem;
+            color: var(--gray-600);
+        }
+        .source-section li {
+            padding: .2rem 0;
+            border-bottom: 1px solid var(--gray-100);
+        }
+        .source-section li:last-child { border-bottom: none; }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            font-size: .75rem;
+            color: var(--gray-600);
+        }
+
+        /* Loading */
+        .loading {
+            text-align: center;
+            padding: 2rem;
+            color: var(--gray-600);
+        }
+
+        @media (max-width: 600px) {
+            header { padding: 1rem; }
+            .container { padding: 1rem; }
+            .mention-time { margin-left: 0; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>🔎 CDF/EFK Monitor</h1>
+            <span class="subtitle">Surveillance des mentions — Telegram · RSS · Reddit</span>
+        </div>
+        <div id="status-badge">
+            <span class="dot"></span>
+            <span id="last-run-text">Chargement...</span>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Stats -->
+        <div class="stats">
+            <div class="stat-card red">
+                <div class="label">Mentions totales</div>
+                <div class="value" id="total-mentions">–</div>
+                <div class="detail" id="total-detail"></div>
+            </div>
+            <div class="stat-card green">
+                <div class="label">Sources actives</div>
+                <div class="value" id="total-sources">17</div>
+                <div class="detail">5 Telegram · 8 RSS · 4 Reddit</div>
+            </div>
+            <div class="stat-card orange">
+                <div class="label">Dernière mention</div>
+                <div class="value" id="last-mention-time" style="font-size:1.2rem">–</div>
+                <div class="detail" id="last-mention-source"></div>
+            </div>
+            <div class="stat-card">
+                <div class="label">Mots-clés surveillés</div>
+                <div class="value" id="total-keywords">7</div>
+                <div class="detail">CDF, EFK, Finanzkontrolle…</div>
+            </div>
+        </div>
+
+        <!-- Filters -->
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">Toutes</button>
+            <button class="filter-btn" data-filter="telegram">📡 Telegram</button>
+            <button class="filter-btn" data-filter="rss">📰 RSS</button>
+            <button class="filter-btn" data-filter="reddit">🔍 Reddit</button>
+        </div>
+
+        <!-- Mentions -->
+        <div class="mentions-header">
+            <h2>Mentions détectées</h2>
+            <span class="mention-count" id="filtered-count"></span>
+        </div>
+        <div id="mentions-list">
+            <div class="loading">Chargement des données...</div>
+        </div>
+
+        <!-- Sources -->
+        <div class="sources-grid" id="sources-section">
+            <div class="source-section">
+                <h3>📡 Telegram</h3>
+                <ul>
+                    <li>@swissinfofrench — SWI swissinfo.ch (FR)</li>
+                    <li>@swissinfoenglish — SWI swissinfo.ch (EN)</li>
+                    <li>@nebelspalterOnline — Nebelspalter (DE)</li>
+                    <li>@insideparadeplatz — Inside Paradeplatz (DE)</li>
+                    <li>@schweizermonat — Schweizer Monat (DE)</li>
+                </ul>
+            </div>
+            <div class="source-section">
+                <h3>📰 Flux RSS</h3>
+                <ul>
+                    <li>SRF News Schweiz</li>
+                    <li>SRF Wirtschaft</li>
+                    <li>NZZ Schweiz · Wirtschaft · Finanzen</li>
+                    <li>Blick Politik · News</li>
+                    <li>Le Temps</li>
+                </ul>
+            </div>
+            <div class="source-section">
+                <h3>🔍 Reddit</h3>
+                <ul>
+                    <li>r/Switzerland</li>
+                    <li>r/suisse</li>
+                    <li>r/schweiz</li>
+                    <li>r/SwissPolitics</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        CDF/EFK Monitor — Exécution automatique toutes les 30 min (8h–00h heure suisse)
+        <br>Données mises à jour par GitHub Actions
+    </footer>
+
+    <script>
+        const BASE = '';
+        let allMentions = [];
+        let currentFilter = 'all';
+
+        async function loadData() {
+            try {
+                const [stateResp, mentionsResp] = await Promise.all([
+                    fetch(`${BASE}data/state.json`),
+                    fetch(`${BASE}data/mentions.json`).catch(() => null),
+                ]);
+
+                // State
+                const state = await stateResp.json();
+                if (state.last_run) {
+                    const d = new Date(state.last_run.timestamp);
+                    document.getElementById('last-run-text').textContent =
+                        `Dernier scan : ${formatDate(d)}`;
+                    const src = state.last_run.sources;
+                    if (src) {
+                        const total = (src.telegram || 0) + (src.rss || 0) + (src.reddit || 0);
+                        document.getElementById('total-sources').textContent = total;
+                        document.getElementById('total-sources').nextElementSibling.textContent =
+                            `${src.telegram || 0} Telegram · ${src.rss || 0} RSS · ${src.reddit || 0} Reddit`;
+                    }
+                } else {
+                    const d = new Date(state.last_check);
+                    document.getElementById('last-run-text').textContent =
+                        `Dernier scan : ${formatDate(d)}`;
+                }
+
+                // Mentions
+                if (mentionsResp && mentionsResp.ok) {
+                    allMentions = await mentionsResp.json();
+                    allMentions.sort((a, b) =>
+                        new Date(b.timestamp) - new Date(a.timestamp)
+                    );
+                }
+
+                updateStats();
+                renderMentions();
+            } catch (e) {
+                document.getElementById('mentions-list').innerHTML =
+                    `<div class="empty-state">
+                        <div class="icon">⚠️</div>
+                        <p>Erreur de chargement des données</p>
+                    </div>`;
+            }
+        }
+
+        function updateStats() {
+            document.getElementById('total-mentions').textContent = allMentions.length;
+
+            if (allMentions.length > 0) {
+                const sources = {};
+                allMentions.forEach(m => {
+                    sources[m.source] = (sources[m.source] || 0) + 1;
+                });
+                const parts = Object.entries(sources).map(([k, v]) => `${v} ${k}`);
+                document.getElementById('total-detail').textContent = parts.join(' · ');
+
+                const latest = allMentions[0];
+                const d = new Date(latest.timestamp);
+                document.getElementById('last-mention-time').textContent = formatDate(d);
+                document.getElementById('last-mention-source').textContent =
+                    `${latest.channel}`;
+            }
+        }
+
+        function renderMentions() {
+            const list = document.getElementById('mentions-list');
+            const filtered = currentFilter === 'all'
+                ? allMentions
+                : allMentions.filter(m => m.source === currentFilter);
+
+            document.getElementById('filtered-count').textContent =
+                `${filtered.length} mention${filtered.length !== 1 ? 's' : ''}`;
+
+            if (filtered.length === 0) {
+                list.innerHTML = `
+                    <div class="empty-state">
+                        <div class="icon">📭</div>
+                        <p>Aucune mention détectée pour le moment.</p>
+                        <p style="margin-top:.5rem;font-size:.85rem">Le monitoring tourne toutes les 30 minutes.</p>
+                    </div>`;
+                return;
+            }
+
+            list.innerHTML = filtered.map(m => {
+                const d = new Date(m.timestamp);
+                const text = highlightKeywords(escapeHtml(m.text.slice(0, 300)));
+                const keywords = (m.keywords || []).map(k =>
+                    `<span class="keyword-tag">${escapeHtml(k)}</span>`
+                ).join('');
+
+                return `
+                    <div class="mention-card source-${m.source}">
+                        <div class="mention-meta">
+                            <span class="source-tag ${m.source}">${m.source}</span>
+                            <span class="mention-channel">${escapeHtml(m.channel)}</span>
+                            <span class="mention-time">${formatDate(d)}</span>
+                        </div>
+                        <div class="mention-text">${text}</div>
+                        <div class="mention-keywords">${keywords}</div>
+                        ${m.url ? `<a class="mention-link" href="${escapeHtml(m.url)}" target="_blank" rel="noopener">Voir l'original →</a>` : ''}
+                    </div>`;
+            }).join('');
+        }
+
+        function highlightKeywords(text) {
+            const kws = ['CDF', 'EFK', 'Contrôle fédéral des finances',
+                'Eidgenössische Finanzkontrolle', 'Controllo federale delle finanze',
+                'Federal Audit Office', 'Finanzkontrolle'];
+            let result = text;
+            kws.forEach(kw => {
+                const escaped = kw.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+                const re = kw.length <= 4
+                    ? new RegExp(`\\b(${escaped})\\b`, 'gi')
+                    : new RegExp(`(${escaped})`, 'gi');
+                result = result.replace(re, '<mark>$1</mark>');
+            });
+            return result;
+        }
+
+        function escapeHtml(str) {
+            const d = document.createElement('div');
+            d.textContent = str;
+            return d.innerHTML;
+        }
+
+        function formatDate(d) {
+            const now = new Date();
+            const diff = (now - d) / 1000;
+            if (diff < 60) return "À l'instant";
+            if (diff < 3600) return `Il y a ${Math.floor(diff / 60)} min`;
+            if (diff < 86400) return `Il y a ${Math.floor(diff / 3600)}h`;
+            return d.toLocaleDateString('fr-CH', {
+                day: 'numeric', month: 'short', year: 'numeric',
+                hour: '2-digit', minute: '2-digit'
+            });
+        }
+
+        // Filter buttons
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                currentFilter = btn.dataset.filter;
+                renderMentions();
+            });
+        });
+
+        loadData();
+    </script>
+</body>
+</html>

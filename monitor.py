@@ -13,6 +13,7 @@ from sources.rss_feeds import check_rss
 from notifier import send_alert
 
 STATE_FILE = Path(__file__).parent / "data" / "state.json"
+MENTIONS_FILE = Path(__file__).parent / "data" / "mentions.json"
 
 
 def load_state() -> dict:
@@ -31,6 +32,21 @@ def save_state(state: dict):
     STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
     with open(STATE_FILE, "w", encoding="utf-8") as f:
         json.dump(state, f, indent=2, ensure_ascii=False)
+
+
+def load_mentions() -> list[dict]:
+    """Charge l'historique des mentions."""
+    if MENTIONS_FILE.exists():
+        with open(MENTIONS_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return []
+
+
+def save_mentions(mentions: list[dict]):
+    """Sauvegarde l'historique des mentions (max 500)."""
+    MENTIONS_FILE.parent.mkdir(parents=True, exist_ok=True)
+    with open(MENTIONS_FILE, "w", encoding="utf-8") as f:
+        json.dump(mentions[-500:], f, indent=2, ensure_ascii=False)
 
 
 def main():
@@ -81,13 +97,28 @@ def main():
 
         for m in new_mentions:
             seen_ids.add(m["msg_id"])
+
+        # Sauvegarder les mentions pour l'interface web
+        history = load_mentions()
+        history.extend(new_mentions)
+        save_mentions(history)
     else:
         print("   Rien de nouveau.")
 
     # Sauvegarder l'état (garder les 1000 derniers IDs)
+    now = datetime.now(timezone.utc)
     state = {
-        "last_check": datetime.now(timezone.utc).isoformat(),
+        "last_check": now.isoformat(),
         "seen_ids": list(seen_ids)[-1000:],
+        "last_run": {
+            "timestamp": now.isoformat(),
+            "new_mentions": len(new_mentions),
+            "sources": {
+                "telegram": len(TELEGRAM_CHANNELS),
+                "rss": len(RSS_FEEDS),
+                "reddit": len(REDDIT_SUBREDDITS),
+            },
+        },
     }
     save_state(state)
 
