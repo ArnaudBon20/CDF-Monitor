@@ -30,8 +30,6 @@ jobs:
           THREEMA_GATEWAY_ID: ${{ secrets.THREEMA_GATEWAY_ID }}
           THREEMA_GATEWAY_SECRET: ${{ secrets.THREEMA_GATEWAY_SECRET }}
           THREEMA_RECIPIENT_ID: ${{ secrets.THREEMA_RECIPIENT_ID }}
-          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
-          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
         run: python monitor.py
 
       - name: Commit state
