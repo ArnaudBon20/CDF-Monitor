@@ -43,4 +43,7 @@ RSS_FEEDS = {
     "Blick News": "https://www.blick.ch/news/rss",
     # Français
     "Le Temps": "https://www.letemps.ch/feed",
+    # Google Alerts (couvre tout le web, y compris Tamedia)
+    "Google Alert CDF": "https://www.google.com/alerts/feeds/07615697087349745904/3764576685214796155",
+    "Google Alert EFK": "https://www.google.com/alerts/feeds/07615697087349745904/4060081330666216931",
 }
