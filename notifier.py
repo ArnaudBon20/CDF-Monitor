@@ -7,21 +7,34 @@ import requests
 
 def format_message(mentions: list[dict]) -> str:
     """Formate les mentions en message lisible pour Threema."""
-    lines = [f"🔔 CDF/EFK Monitor — {len(mentions)} nouvelle(s) mention(s)\n"]
+    n = len(mentions)
+    lines = [f"🔔 *CDF/EFK Monitor*"]
+    lines.append(f"_{n} nouvelle{'s' if n > 1 else ''} mention{'s' if n > 1 else ''}_")
+    lines.append("━━━━━━━━━━━━━━━━━━━━")
 
-    for m in mentions[:10]:
+    for i, m in enumerate(mentions[:10]):
         emoji = {"telegram": "📡", "rss": "📰", "reddit": "🔍"}.get(m["source"], "•")
+        src = m["source"].upper()
         kw = ", ".join(m["keywords"])
-        preview = m["text"][:150].replace("\n", " ")
+        preview = m["text"][:200].replace("\n", " ").strip()
 
-        lines.append(f"{emoji} {m['channel']}")
-        lines.append(f"   Mots-clés: {kw}")
-        lines.append(f"   {preview}")
-        lines.append(f"   → {m['url']}")
         lines.append("")
+        lines.append(f"{emoji} *{m['channel']}*  ·  {src}")
+        lines.append(f"「{preview}」")
+        lines.append(f"🏷 {kw}")
+        if m.get("url"):
+            lines.append(f"🔗 {m['url']}")
+
+        if i < min(len(mentions), 10) - 1:
+            lines.append("─ ─ ─ ─ ─ ─ ─ ─ ─ ─")
 
     if len(mentions) > 10:
-        lines.append(f"... et {len(mentions) - 10} autre(s)")
+        lines.append("")
+        lines.append(f"⋯ +{len(mentions) - 10} autre{'s' if len(mentions) - 10 > 1 else ''}")
+
+    lines.append("")
+    lines.append("━━━━━━━━━━━━━━━━━━━━")
+    lines.append("arnaudbon20.github.io/CDF-Monitor")
 
     return "\n".join(lines)
 
