@@ -1,10 +1,10 @@
 {
-  "last_check": "2026-04-28T12:23:13.471580+00:00",
+  "last_check": "2026-04-28T15:03:44.282222+00:00",
   "seen_ids": [
     "rss_Google Alert EFK_tag:google.com,2013:googlealerts/feed:7776475296883788402"
   ],
   "last_run": {
-    "timestamp": "2026-04-28T12:23:13.471580+00:00",
+    "timestamp": "2026-04-28T15:03:44.282222+00:00",
     "new_mentions": 0,
     "sources": {
       "telegram": 5,
