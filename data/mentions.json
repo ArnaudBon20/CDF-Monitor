@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "source": "rss",
+    "channel": "Google Alert EFK",
+    "text": "Jahresbericht der Eidgenössischen <b>Finanzkontrolle</b> 2025 - Der Bundesrat\nSehr geehrte Damen und HerrenIm vergangenen Jahr hat die <b>Eidgenössische Finanzkontrolle</b> (EFK) rund 150 Prüfungen durchgeführt.",
+    "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.admin.ch/de/jahresbericht-der-eidgenoessischen-finanzkontrolle-2025&ct=ga&cd=CAIyGTUzZTlmZjc5N2JlM2UyNTM6ZnI6ZGU6VVM&usg=AOvVaw3RQYATRhe_q9bqNUFahNxP",
+    "msg_id": "rss_Google Alert EFK_tag:google.com,2013:googlealerts/feed:7776475296883788402",
+    "keywords": [
+      "Eidgenössische Finanzkontrolle",
+      "Finanzkontrolle",
+      "EFK"
+    ],
+    "timestamp": "2026-04-28T06:32:07+00:00"
+  }
+]
