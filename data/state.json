@@ -1,11 +1,11 @@
 {
-  "last_check": "2026-04-29T10:24:09.450799+00:00",
+  "last_check": "2026-04-29T12:01:32.739139+00:00",
   "seen_ids": [
-    "rss_Google Alert CDF_tag:google.com,2013:googlealerts/feed:7237249301575776613",
-    "rss_Google Alert EFK_tag:google.com,2013:googlealerts/feed:7776475296883788402"
+    "rss_Google Alert EFK_tag:google.com,2013:googlealerts/feed:7776475296883788402",
+    "rss_Google Alert CDF_tag:google.com,2013:googlealerts/feed:7237249301575776613"
   ],
   "last_run": {
-    "timestamp": "2026-04-29T10:24:09.450799+00:00",
+    "timestamp": "2026-04-29T12:01:32.739139+00:00",
     "new_mentions": 0,
     "sources": {
       "telegram": 5,
