@@ -11,5 +11,17 @@
       "EFK"
     ],
     "timestamp": "2026-04-28T06:32:07+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Google Alert CDF",
+    "text": "Les Romands posent leurs conditions pour le développement du rail - 24 Heures\nDes projets «trop coûteux». Le <b>Contrôle fédéral des finances</b> (CDF) a profité de Transports'45 pour se pencher sur le financement du développement du&nbsp;...",
+    "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.24heures.ch/les-romands-posent-leurs-conditions-pour-le-developpement-du-rail-188692612474&ct=ga&cd=CAIyG2MwODIyYzJiMjE0MmU1Njk6ZnI6ZnI6Q0g6Ug&usg=AOvVaw3ak9eFlx2meRLM3iVQqX8W",
+    "msg_id": "rss_Google Alert CDF_tag:google.com,2013:googlealerts/feed:7237249301575776613",
+    "keywords": [
+      "CDF",
+      "Contrôle fédéral des finances"
+    ],
+    "timestamp": "2026-04-29T00:17:15+00:00"
   }
 ]
