@@ -1,14 +1,14 @@
 {
-  "last_check": "2026-04-29T19:25:56.242618+00:00",
+  "last_check": "2026-04-29T20:39:53.281877+00:00",
   "seen_ids": [
     "rss_Google Alert CDF_tag:google.com,2013:googlealerts/feed:14383669462468066991",
-    "rss_Google Alert CDF_tag:google.com,2013:googlealerts/feed:7237249301575776613",
-    "rss_Google Alert EFK_tag:google.com,2013:googlealerts/feed:7776475296883788402",
     "rss_Google Alert CDF_tag:google.com,2013:googlealerts/feed:17740579652369094832",
-    "rss_Google Alert CDF_tag:google.com,2013:googlealerts/feed:10064437464591769632"
+    "rss_Google Alert CDF_tag:google.com,2013:googlealerts/feed:10064437464591769632",
+    "rss_Google Alert EFK_tag:google.com,2013:googlealerts/feed:7776475296883788402",
+    "rss_Google Alert CDF_tag:google.com,2013:googlealerts/feed:7237249301575776613"
   ],
   "last_run": {
-    "timestamp": "2026-04-29T19:25:56.242618+00:00",
+    "timestamp": "2026-04-29T20:39:53.281877+00:00",
     "new_mentions": 0,
     "sources": {
       "telegram": 5,
