@@ -124,5 +124,27 @@
       "Eidgenössische Finanzkontrolle"
     ],
     "timestamp": "2026-05-08T22:11:55+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Blick Politik",
+    "text": "Swissmedic in Schieflage: Nebenwirkung Grössenwahn\nDas Schweizerische Heilmittelinstitut wurde in die finanzielle Misere getrieben. Die Gründe: Ein IT-Desaster und Selbstüberschätzung in der Chefetage. Einige Verantwortliche sind noch immer am Ruder. Die Eidgenössische Finanzkontrolle schaltet sich ein.",
+    "url": "https://www.blick.ch/schweiz/swissmedic-in-schieflage-nebenwirkung-groessenwahn-id21935639.html",
+    "msg_id": "rss_Blick Politik_https://www.blick.ch/schweiz/swissmedic-in-schieflage-nebenwirkung-groessenwahn-id21935639.html",
+    "keywords": [
+      "Eidgenössische Finanzkontrolle"
+    ],
+    "timestamp": "2026-05-09T22:02:49+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Blick News",
+    "text": "Swissmedic in Schieflage: Nebenwirkung Grössenwahn\nDas Schweizerische Heilmittelinstitut wurde in die finanzielle Misere getrieben. Die Gründe: Ein IT-Desaster und Selbstüberschätzung in der Chefetage. Einige Verantwortliche sind noch immer am Ruder. Die Eidgenössische Finanzkontrolle schaltet sich ein.",
+    "url": "https://www.blick.ch/schweiz/swissmedic-in-schieflage-nebenwirkung-groessenwahn-id21935639.html",
+    "msg_id": "rss_Blick News_https://www.blick.ch/schweiz/swissmedic-in-schieflage-nebenwirkung-groessenwahn-id21935639.html",
+    "keywords": [
+      "Eidgenössische Finanzkontrolle"
+    ],
+    "timestamp": "2026-05-09T22:02:49+00:00"
   }
 ]
