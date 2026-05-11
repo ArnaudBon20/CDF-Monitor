@@ -146,5 +146,17 @@
       "Eidgenössische Finanzkontrolle"
     ],
     "timestamp": "2026-05-09T22:02:49+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Le Temps",
+    "text": "Coûts élevés, données erronées, pilotage défaillant: ce que révèle un audit explosif sur la santé dans l’asile\n<img src=\"https://letemps-17455.kxcdn.com/photos/3f70c564-da02-4642-9aeb-be1b823e687f/medium\" /><p>Pour la première fois, le Contrôle fédéral des finances chiffre les coûts de santé des requérants d’asile séjournant dans des centres fédéraux. L’audit soulève de nombreux problèmes et épingle sévèreme",
+    "url": "https://www.letemps.ch/articles/couts-eleves-donnees-erronees-pilotage-defaillant-ce-que-revele-un-audit-explosif-sur-la-sante-dans-l-asile",
+    "msg_id": "rss_Le Temps_https://www.letemps.ch/articles/couts-eleves-donnees-erronees-pilotage-defaillant-ce-que-revele-un-audit-explosif-sur-la-sante-dans-l-asile",
+    "keywords": [
+      "Contrôle fédéral des finances",
+      "CDF"
+    ],
+    "timestamp": "2026-05-11T21:30:51+00:00"
   }
 ]
