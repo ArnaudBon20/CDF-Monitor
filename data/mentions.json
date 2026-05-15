@@ -350,5 +350,16 @@
       "Contrôle fédéral des finances"
     ],
     "timestamp": "2026-05-15T05:14:29+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "NZZ Schweiz",
+    "text": "Die Gegner der Keine-10-Millionen-Schweiz-Initiative wehren sich mit 9 Millionen Franken\nDie neuesten Zahlen der Eidgenössischen Finanzkontrolle zeigen: Der Abstimmungskampf zu der SVP-Initiative dürfte einer der teuersten in der Geschichte sein.",
+    "url": "https://www.nzz.ch/schweiz/die-gegner-der-keine-10-millionen-schweiz-initiative-wehren-sich-mit-9-millionen-franken-ld.10007208",
+    "msg_id": "rss_NZZ Schweiz_ld.10007208",
+    "keywords": [
+      "Finanzkontrolle"
+    ],
+    "timestamp": "2026-05-15T15:11:19+00:00"
   }
 ]
