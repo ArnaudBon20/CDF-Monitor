@@ -2,8 +2,8 @@ name: CDF/EFK Monitor
 
 on:
   schedule:
-    # Toutes les 30 min entre 6h-22h UTC (8h-00h heure suisse)
-    - cron: '*/30 6-22 * * *'
+    # Toutes les 10 min entre 6h-22h UTC (8h-00h heure suisse)
+    - cron: '*/10 6-22 * * *'
   workflow_dispatch:
 
 permissions:

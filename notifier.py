@@ -7,31 +7,69 @@ import requests
 
 def format_message(mentions: list[dict]) -> str:
     """Formate les mentions en message lisible pour Threema."""
+    from datetime import datetime, timezone, timedelta
+
     n = len(mentions)
-    lines = [f"🔔 *CDF/EFK Monitor*"]
-    lines.append(f"_{n} nouvelle{'s' if n > 1 else ''} mention{'s' if n > 1 else ''}_")
+    tz_ch = timezone(timedelta(hours=2))
+    now = datetime.now(tz_ch)
+    timestamp = now.strftime("%d.%m.%Y %H:%M")
 
-    for i, m in enumerate(mentions[:10]):
-        emoji = {"telegram": "📡", "rss": "📰", "reddit": "🔍"}.get(m["source"], "•")
-        preview = m["text"][:200].replace("\n", " ").strip()
+    source_emoji = {"telegram": "📡", "rss": "📰", "reddit": "🟠"}
+    source_label = {"telegram": "Telegram", "rss": "Médias", "reddit": "Reddit"}
 
+    # Header compact
+    lines = [
+        f"🔔 ALERTE CDF — {timestamp}",
+        f"{n} mention{'s' if n > 1 else ''} détectée{'s' if n > 1 else ''}",
+        "",
+    ]
+
+    # Regrouper par source
+    by_source = {}
+    for m in mentions[:10]:
+        src = m["source"]
+        by_source.setdefault(src, []).append(m)
+
+    for src in ["rss", "telegram", "reddit"]:
+        items = by_source.get(src, [])
+        if not items:
+            continue
+
+        emoji = source_emoji.get(src, "•")
+        label = source_label.get(src, src)
+
+        lines.append(f"── {emoji} {label} ({len(items)}) ──")
         lines.append("")
-        lines.append(f"{emoji} *{m['channel']}*")
-        lines.append("")
-        lines.append(preview)
-        if m.get("url"):
-            lines.append("")
-            lines.append(f"🔗 {m['url']}")
 
-        if i < min(len(mentions), 10) - 1:
+        for m in items:
+            # Extraire le titre (première ligne du texte)
+            text_lines = m["text"].split("\n", 1)
+            title = text_lines[0].strip()[:120]
+
+            # Heure de la mention
+            time_str = ""
+            if m.get("timestamp"):
+                try:
+                    dt = datetime.fromisoformat(m["timestamp"]).astimezone(tz_ch)
+                    time_str = dt.strftime("%H:%M")
+                except (ValueError, TypeError):
+                    pass
+
+            # Ligne principale
+            header = f"▸ {m['channel']}"
+            if time_str:
+                header += f" • {time_str}"
+            lines.append(header)
+            lines.append(f"  {title}")
+            if m.get("url"):
+                lines.append(f"  → {m['url']}")
             lines.append("")
-            lines.append("─ ─ ─ ─ ─ ─ ─ ─ ─ ─")
 
     if len(mentions) > 10:
+        lines.append(f"… +{len(mentions) - 10} autre(s)")
         lines.append("")
-        lines.append(f"⋯ +{len(mentions) - 10} autre{'s' if len(mentions) - 10 > 1 else ''}")
 
-    return "\n".join(lines)
+    return "\n".join(lines).rstrip()
 
 
 def send_alert(mentions: list[dict]) -> bool:
