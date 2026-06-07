@@ -576,5 +576,17 @@
       "Contrôle fédéral des finances"
     ],
     "timestamp": "2026-06-04T17:04:30+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Google Alert EFK",
+    "text": "Neues Compliance-Problem beim Rüstungskonzern Ruag - muula.ch\nDie <b>Eidgenössische Finanzkontrolle</b> EFK hatte unlängst gerügt, dass die Berichterstattung der Ruag an die Eignerstellen viel zu positiv gewesen sei.",
+    "url": "https://www.google.com/url?rct=j&sa=t&url=https://muula.ch/aktuell/neues-compliance-problem-beim-rustungskonzern-ruag-cyberangriff-mro-efk-panzer-usa-bund-roetheli/&ct=ga&cd=CAIyGTUzZTlmZjc5N2JlM2UyNTM6ZnI6ZGU6VVM&usg=AOvVaw0GqdcdsdosQIUu-DQJaKFK",
+    "msg_id": "rss_Google Alert EFK_tag:google.com,2013:googlealerts/feed:6901692864561675520",
+    "keywords": [
+      "EFK",
+      "Eidgenössische Finanzkontrolle"
+    ],
+    "timestamp": "2026-06-07T00:21:29+00:00"
   }
 ]
