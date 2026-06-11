@@ -634,5 +634,28 @@
       "Finanzkontrolle"
     ],
     "timestamp": "2026-06-09T18:30:48+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "SRF News Schweiz",
+    "text": "Kritik an «Lindas» – Teuer und kaum genutzt: Schlechte Noten für Bundes-Datenplattform\n<img align=\"left\" hspace=\"5\" src=\"https://www.srf.ch/static/cms/images//320ws/39a755.webp\" />Die EFK bemängelt, dass die Wirtschaftlichkeit der Plattform nicht belegt sei. Zudem sei der Nutzen unklar.",
+    "url": "https://www.srf.ch/news/schweiz/kritik-an-lindas-teuer-und-kaum-genutzt-schlechte-noten-fuer-bundes-datenplattform",
+    "msg_id": "rss_SRF News Schweiz_urn:srf:article:019eb52b-6729-4718-d8f3-94a679c2de79",
+    "keywords": [
+      "EFK"
+    ],
+    "timestamp": "2026-06-11T07:01:07+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Google Alert EFK",
+    "text": "Prüfung des Einsatzes von Linked Data Services - Eidgenössisches Finanzdepartement EFD\nDie <b>Eidgenössische Finanzkontrolle</b> (EFK) prüfte, ob LINDAS strategisch sowie operativ ausreichend ausgereift und aufgestellt ist, so dass ein&nbsp;...",
+    "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.efd.admin.ch/de/newnsb/aNLO1PkxMH7h3YBhZeCdF&ct=ga&cd=CAIyGTUzZTlmZjc5N2JlM2UyNTM6ZnI6ZGU6VVM&usg=AOvVaw3iGcaujyvagqHZN_Dq_lXx",
+    "msg_id": "rss_Google Alert EFK_tag:google.com,2013:googlealerts/feed:2397190171306465249",
+    "keywords": [
+      "Eidgenössische Finanzkontrolle",
+      "EFK"
+    ],
+    "timestamp": "2026-06-11T03:06:33+00:00"
   }
 ]
