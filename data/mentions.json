@@ -703,5 +703,16 @@
       "EFK"
     ],
     "timestamp": "2026-06-19T02:57:43+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Google Alert CDF",
+    "text": "Débuts laborieux pour la nouvelle surveillance cyber de la Confédération - ICTjournal\n... fédéral de la cybersécurité reste laborieuse. Le <b>Contrôle fédéral des finances</b> critique des processus flous, des frictions et des lacunes dans l&nbsp;...",
+    "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.ictjournal.ch/news/2026-06-22/debuts-laborieux-pour-la-nouvelle-surveillance-cyber-de-la-confederation&ct=ga&cd=CAIyG2MwODIyYzJiMjE0MmU1Njk6ZnI6ZnI6Q0g6Ug&usg=AOvVaw2--ptbEYV-r5XO-keKpZZD",
+    "msg_id": "rss_Google Alert CDF_tag:google.com,2013:googlealerts/feed:10757967113090680967",
+    "keywords": [
+      "Contrôle fédéral des finances"
+    ],
+    "timestamp": "2026-06-22T22:26:46+00:00"
   }
 ]
