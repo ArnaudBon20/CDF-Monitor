@@ -748,5 +748,17 @@
       "Contrôle fédéral des finances"
     ],
     "timestamp": "2026-06-26T06:05:37+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "SRF News Schweiz",
+    "text": "Prüfung durch Finanzkontrolle – IT-Projekt des VBS: «Wir wechseln das Rad am fahrenden Auto»\n<img align=\"left\" hspace=\"5\" src=\"https://www.srf.ch/static/cms/images//320ws/c0658c.webp\" />Das Projekt iTask hat Risiken, wie die Eidgenössische Finanzkontrolle feststellt. Das VBS sieht sich auf Kurs.",
+    "url": "https://www.srf.ch/news/schweiz/pruefung-durch-finanzkontrolle-it-projekt-des-vbs-wir-wechseln-das-rad-am-fahrenden-auto",
+    "msg_id": "rss_SRF News Schweiz_urn:srf:article:019f13c3-e830-29d2-4d1b-b8ff388fe930",
+    "keywords": [
+      "Finanzkontrolle",
+      "Eidgenössische Finanzkontrolle"
+    ],
+    "timestamp": "2026-06-30T05:14:40+00:00"
   }
 ]
