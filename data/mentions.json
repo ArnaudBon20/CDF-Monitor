@@ -794,5 +794,51 @@
       "Contrôle fédéral des finances"
     ],
     "timestamp": "2026-06-30T23:13:04+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "SRF News Schweiz",
+    "text": "Untersuchung Finanzkontrolle – Wenn im Abstimmungsbüchlein falsche Zahlen stehen\n<img align=\"left\" hspace=\"5\" src=\"https://www.srf.ch/static/cms/images//320ws/91d5e2.webp\" />Die Eidgenössische Finanzkontrolle hat die Qualität der Prognosen des Bundes untersucht – und Mängel festgestellt.",
+    "url": "https://www.srf.ch/news/schweiz/untersuchung-finanzkontrolle-wenn-im-abstimmungsbuechlein-falsche-zahlen-stehen",
+    "msg_id": "rss_SRF News Schweiz_urn:srf:article:019f1c7c-8ad4-689a-38aa-39235fbb63e8",
+    "keywords": [
+      "Finanzkontrolle",
+      "Eidgenössische Finanzkontrolle"
+    ],
+    "timestamp": "2026-07-01T21:42:19+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "NZZ Schweiz",
+    "text": "Fehlerhafte Prognosen im Abstimmungsbüchlein? Finanzkontrolle rügt Mängel beim Allerheiligsten der Schweizer Demokratie\nNicht nur bei der «Heiratsstrafe» und der AHV hat der Bund fragwürdige Zahlen präsentiert: Die Finanzkontrolle kritisiert die Entscheidgrundlagen, die der Bundesrat dem Volk und dem Parlament vorlegt.",
+    "url": "https://www.nzz.ch/schweiz/fehlerhafte-prognosen-im-abstimmungsbuechlein-finanzkontrolle-ruegt-maengel-beim-allerheiligsten-der-schweizer-demokratie-ld.10013314",
+    "msg_id": "rss_NZZ Schweiz_ld.10013314",
+    "keywords": [
+      "Finanzkontrolle"
+    ],
+    "timestamp": "2026-07-01T21:00:00+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Blick Politik",
+    "text": "Zahlendebakel im Abstimmungsbüechli: Bundesrat will sich trotz Rechenpannen nicht kontrollieren lassen\nNach mehreren peinlichen Rechenpannen des Bundes zeigt die EFK wie diese verhindert werden können. Der Bundesrat stimmt zu – lehnt zusätzliche Mittel für deren Umsetzung jedoch ab.",
+    "url": "https://www.blick.ch/politik/zahlendebakel-im-abstimmungsbueechli-bundesrat-will-sich-trotz-rechenpannen-nicht-kontrollieren-lassen-id22075655.html",
+    "msg_id": "rss_Blick Politik_https://www.blick.ch/politik/zahlendebakel-im-abstimmungsbueechli-bundesrat-will-sich-trotz-rechenpannen-nicht-kontrollieren-lassen-id22075655.html",
+    "keywords": [
+      "EFK"
+    ],
+    "timestamp": "2026-07-01T21:00:40+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Le Temps",
+    "text": "Le Conseil fédéral n’applique pas assez les règles qu’il s’est lui-même fixées pour améliorer la qualité de ses projections\n<img src=\"https://letemps-17455.kxcdn.com/photos/66001213-bac6-4fa0-8b2c-0c43db324c85/medium\" /><p>Six ans après avoir renforcé ses directives à la suite d’erreurs retentissantes dans ses projections en marge de votations, le Conseil fédéral ne les applique toujours pas de manière rigoureuse, estime",
+    "url": "https://www.letemps.ch/articles/le-conseil-federal-n-applique-pas-assez-les-regles-qu-il-s-est-lui-meme-fixees-pour-ameliorer-la-qualite-de-ses-projections",
+    "msg_id": "rss_Le Temps_https://www.letemps.ch/articles/le-conseil-federal-n-applique-pas-assez-les-regles-qu-il-s-est-lui-meme-fixees-pour-ameliorer-la-qualite-de-ses-projections",
+    "keywords": [
+      "CDF",
+      "Contrôle fédéral des finances"
+    ],
+    "timestamp": "2026-07-01T21:00:09+00:00"
   }
 ]
