@@ -44,6 +44,6 @@ RSS_FEEDS = {
     # Français
     "Le Temps": "https://www.letemps.ch/feed",
     # Google Alerts (couvre tout le web, y compris Tamedia)
-    "Google Alert CDF": "https://www.google.com/alerts/feeds/07615697087349745904/3764576685214796155",
-    "Google Alert EFK": "https://www.google.com/alerts/feeds/07615697087349745904/4060081330666216931",
+    "Google Alert CDF": "https://www.google.com/alerts/feeds/07615697087349745904/6150457689703217061",
+    "Google Alert EFK": "https://www.google.com/alerts/feeds/07615697087349745904/14721884691269719171",
 }
