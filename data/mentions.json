@@ -862,5 +862,29 @@
       "Contrôle fédéral des finances"
     ],
     "timestamp": "2026-07-02T23:06:50+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "SRF News Schweiz",
+    "text": "Wichtige Informatikprojekte – Schlüsselprojekte im Fokus: EFK rüffelt Bundesverwaltung\n<img align=\"left\" hspace=\"5\" src=\"https://www.srf.ch/static/cms/images//320ws/4683ea.webp\" />Der Bund mache den gleichen Fehler wie vor 10 Jahren, schreibt die Eidgenössische Finanzkontrolle in einem Bericht.",
+    "url": "https://www.srf.ch/news/schweiz/wichtige-informatikprojekte-schluesselprojekte-im-fokus-efk-rueffelt-bundesverwaltung",
+    "msg_id": "rss_SRF News Schweiz_urn:srf:article:019f459f-8c17-a6fb-7e50-7ffc762273ec",
+    "keywords": [
+      "EFK",
+      "Eidgenössische Finanzkontrolle"
+    ],
+    "timestamp": "2026-07-09T09:47:24+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "SRF Wirtschaft",
+    "text": "Wichtige Informatikprojekte – Schlüsselprojekte im Fokus: EFK rüffelt Bundesverwaltung\n<img align=\"left\" hspace=\"5\" src=\"https://www.srf.ch/static/cms/images//320ws/4683ea.webp\" />Der Bund mache den gleichen Fehler wie vor 10 Jahren, schreibt die Eidgenössische Finanzkontrolle in einem Bericht.",
+    "url": "https://www.srf.ch/news/schweiz/wichtige-informatikprojekte-schluesselprojekte-im-fokus-efk-rueffelt-bundesverwaltung",
+    "msg_id": "rss_SRF Wirtschaft_urn:srf:article:019f459f-8c17-a6fb-7e50-7ffc762273ec",
+    "keywords": [
+      "EFK",
+      "Eidgenössische Finanzkontrolle"
+    ],
+    "timestamp": "2026-07-09T09:47:24+00:00"
   }
 ]
