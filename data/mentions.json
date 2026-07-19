@@ -967,5 +967,17 @@
       "EFK"
     ],
     "timestamp": "2026-07-13T02:59:55+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Google Alert EFK",
+    "text": "Arbeitslosengelder: Seco-Verantwortliche wussten um Probleme - Blick\nVon Anfang an war es schlecht geführt – dies stellte die <b>Eidgenössische Finanzkontrolle</b> (EFK) in insgesamt sechs Prüfungen fest. Sie warnte immer&nbsp;...",
+    "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.blick.ch/politik/interne-dokumente-zeigen-it-puff-beim-seco-kam-mit-ansage-id22118550.html&ct=ga&cd=CAIyGTUzZTlmZjc5N2JlM2UyNTM6ZnI6ZGU6VVM&usg=AOvVaw3K0VggEhgu759wyZzFkCWn",
+    "msg_id": "rss_Google Alert EFK_tag:google.com,2013:googlealerts/feed:6117582673111111507",
+    "keywords": [
+      "EFK",
+      "Eidgenössische Finanzkontrolle"
+    ],
+    "timestamp": "2026-07-19T01:25:27+00:00"
   }
 ]
