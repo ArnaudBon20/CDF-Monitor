@@ -979,5 +979,18 @@
       "Eidgenössische Finanzkontrolle"
     ],
     "timestamp": "2026-07-19T01:25:27+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Le Temps",
+    "text": "Les problèmes informatiques qui ont retardé le versement des indemnités chômage auraient-ils pu être évités?\n<img src=\"https://letemps-17455.kxcdn.com/photos/63bd1ed1-efb3-4174-9454-2f86edd15e1e/medium\" /><p>Certains tests de la plateforme du Secrétariat d’Etat à Economie qui a connu d’importants bugs informatiques dès janvier n’avaient pas été concluants, selon des informations de «Blick» publiées samedi.",
+    "url": "https://www.letemps.ch/articles/les-problemes-informatiques-qui-ont-retarde-le-versement-des-indemnites-chomage-auraient-ils-pu-etre-evites",
+    "msg_id": "rss_Le Temps_https://www.letemps.ch/articles/les-problemes-informatiques-qui-ont-retarde-le-versement-des-indemnites-chomage-auraient-ils-pu-etre-evites",
+    "keywords": [
+      "Contrôle fédéral des finances",
+      "CDF",
+      "efk"
+    ],
+    "timestamp": "2026-07-19T08:23:09+00:00"
   }
 ]
