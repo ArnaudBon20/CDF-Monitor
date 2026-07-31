@@ -992,5 +992,16 @@
       "efk"
     ],
     "timestamp": "2026-07-19T08:23:09+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Google Alert CDF",
+    "text": "Des initiants dénoncent des erreurs dans la brochure de vote <b>fédérale</b> sur l'alimentation sûre\nAu début du mois, le <b>Contrôle fédéral des finances</b> avait dénoncé les manquements de ces brochures. Publicité. (frs). Stefan Lanz. par. Stefan Lanz.",
+    "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.20min.ch/fr/story/votation-federale-des-initiants-denoncent-des-erreurs-dans-la-brochure-de-vote-103611004&ct=ga&cd=CAIyGmMwODIyYzJiMjE0MmU1Njk6Y29tOmZyOlVT&usg=AOvVaw2t4pY6ZWEuSJKefSsVG9yt",
+    "msg_id": "rss_Google Alert CDF_tag:google.com,2013:googlealerts/feed:474845574282680515",
+    "keywords": [
+      "Contrôle fédéral des finances"
+    ],
+    "timestamp": "2026-07-31T00:18:22+00:00"
   }
 ]
