@@ -1003,5 +1003,28 @@
       "Contrôle fédéral des finances"
     ],
     "timestamp": "2026-07-31T00:18:22+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "NZZ Schweiz",
+    "text": "Die Armee will ihre Logistik für bis zu 10 Milliarden Franken dezentralisieren. Kommt das gut? Die Finanzkontrolle scheint schon einmal zufrieden\nDas Gesamtkonzept zur Armeelogistik dürfte erst in ein paar Wochen erscheinen. Der Prüfungsbericht der EFK zeigt aber schon ein paar Eckdaten.",
+    "url": "https://www.nzz.ch/schweiz/die-armee-will-ihre-logistik-fuer-fuenf-milliarden-franken-dezentralisieren-kommt-das-gut-die-finanzkontrolle-ist-schon-einmal-zufrieden-ld.10018221",
+    "msg_id": "rss_NZZ Schweiz_ld.10018221",
+    "keywords": [
+      "Finanzkontrolle",
+      "EFK"
+    ],
+    "timestamp": "2026-08-05T21:04:17+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Blick Politik",
+    "text": "Logistik-Puff bei der Armee: Armee hat bis zu 10 Milliarden Franken nicht eingeplant\nDie Armee plant ein milliardenteures Logistikkonzept, um im Ernstfall schneller reagieren zu können. Doch die Finanzierung ist nicht geklärt. Die Finanzkontrolle warnt vor erheblichen Lücken, die den Plan gefährden könnten. Es geht um bis zu 10 Milliarden Franken.",
+    "url": "https://www.blick.ch/politik/logistik-puff-bei-der-armee-armee-hat-bis-zu-10-milliarden-franken-nicht-eingeplant-id22160712.html",
+    "msg_id": "rss_Blick Politik_https://www.blick.ch/politik/logistik-puff-bei-der-armee-armee-hat-bis-zu-10-milliarden-franken-nicht-eingeplant-id22160712.html",
+    "keywords": [
+      "Finanzkontrolle"
+    ],
+    "timestamp": "2026-08-05T21:00:18+00:00"
   }
 ]
