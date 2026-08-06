@@ -1026,5 +1026,27 @@
       "Finanzkontrolle"
     ],
     "timestamp": "2026-08-05T21:00:18+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "SRF News Schweiz",
+    "text": "Bericht der Finanzkontrolle – Die Armee will ihr Material wieder besser im Land verteilen\n<img align=\"left\" hspace=\"5\" src=\"https://www.srf.ch/static/cms/images//320ws/0ea438.webp\" />Das Armeematerial soll weniger zentral gelagert werden. Diese Neuorganisation hat strategische Gründe, ist aber teuer.",
+    "url": "https://www.srf.ch/news/schweiz/bericht-der-finanzkontrolle-die-armee-will-ihr-material-wieder-besser-im-land-verteilen",
+    "msg_id": "rss_SRF News Schweiz_urn:srf:article:019fd208-e2b7-40d8-c9c6-3c1cec6f1ec8",
+    "keywords": [
+      "Finanzkontrolle"
+    ],
+    "timestamp": "2026-08-06T04:31:42+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Google Alert CDF",
+    "text": "Des milliards pour adapter la logistique de l'armée: un défi - SWI swissinfo.ch\nLe projet d'adaptation de la logistique de l'armée, qui se chiffre en milliards, est jugé assez mûr par le <b>Contrôle fédéral des finances</b>. Ce&nbsp;...",
+    "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.swissinfo.ch/fre/des-milliards-pour-adapter-la-logistique-de-l%2527arm%25C3%25A9e%253A-un-d%25C3%25A9fi/91853279&ct=ga&cd=CAIyGmMwODIyYzJiMjE0MmU1Njk6Y29tOmZyOlVT&usg=AOvVaw2AgpUxKhfwd_6lU3_dMtl9",
+    "msg_id": "rss_Google Alert CDF_tag:google.com,2013:googlealerts/feed:14914890534031516154",
+    "keywords": [
+      "Contrôle fédéral des finances"
+    ],
+    "timestamp": "2026-08-06T01:35:56+00:00"
   }
 ]
