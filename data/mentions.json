@@ -1142,5 +1142,28 @@
       "Finanzkontrolle"
     ],
     "timestamp": "2026-08-06T16:02:07+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "NZZ Schweiz",
+    "text": "Ärzte, Spitäler, Apotheker kassieren 360 Millionen Franken an Medikamentenrabatten ein, die eigentlich den Patienten gehören\nMedizinische Versorger handeln mit Pharmafirmen Vergünstigungen aus, liefern sie aber nicht den Krankenkassen ab. Das gilt in der Branche immer noch als Kavaliersdelikt, wie ein Bericht der Finanzkontrolle zeigt.",
+    "url": "https://www.nzz.ch/schweiz/aerzte-spitaeler-apotheker-kassieren-360-millionen-franken-an-medikamenten-rabatte-ein-die-eigentlich-den-patienten-gehoeren-ld.10018993",
+    "msg_id": "rss_NZZ Schweiz_ld.10018993",
+    "keywords": [
+      "Finanzkontrolle"
+    ],
+    "timestamp": "2026-08-12T21:00:00+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Le Temps",
+    "text": "Rabais sur les médicaments: un scandale à 743 millions de francs qui révèle le laxisme de l’OFSP\n<img src=\"https://letemps-17455.kxcdn.com/photos/43ed811c-2463-408f-976c-db11cea9def1/medium\" /><p>Le Contrôle fédéral des finances estime à 743 millions de francs les rabais et autres avantages accordés chaque année par l’industrie aux médecins, pharmacies et hôpitaux. Mais la Confédération ne cont",
+    "url": "https://www.letemps.ch/articles/rabais-sur-les-medicaments-un-scandale-a-743-millions-de-francs-qui-revele-le-laxisme-de-l-ofsp",
+    "msg_id": "rss_Le Temps_https://www.letemps.ch/articles/rabais-sur-les-medicaments-un-scandale-a-743-millions-de-francs-qui-revele-le-laxisme-de-l-ofsp",
+    "keywords": [
+      "CDF",
+      "Contrôle fédéral des finances"
+    ],
+    "timestamp": "2026-08-12T21:00:02+00:00"
   }
 ]
