@@ -1199,5 +1199,16 @@
       "efk"
     ],
     "timestamp": "2026-08-13T18:16:11+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "SRF News Schweiz",
+    "text": "EFK-Bericht kritisiert Bund – Medikamentenrabatte: Vorwurf des «organisierten Diebstahls»\n<img align=\"left\" hspace=\"5\" src=\"https://www.srf.ch/static/cms/images//320ws/d495ced.webp\" />Versicherte profitieren kaum von Medikamentenrabatten. Parlamentarier fordern nun Kontrollen und klare Konsequenzen.",
+    "url": "https://www.srf.ch/news/dialog/efk-bericht-kritisiert-bund-medikamentenrabatte-vorwurf-des-organisierten-diebstahls",
+    "msg_id": "rss_SRF News Schweiz_urn:srf:article:019fff36-e79f-a0be-6e01-3c1c8c4f4505",
+    "keywords": [
+      "EFK"
+    ],
+    "timestamp": "2026-08-14T10:49:42+00:00"
   }
 ]
