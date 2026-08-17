@@ -1210,5 +1210,16 @@
       "EFK"
     ],
     "timestamp": "2026-08-14T10:49:42+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Google Alert CDF",
+    "text": "Front commun contre l'initiative sur la neutralité, | Agefi.com\nD'après les chiffres actuels publiés par le <b>Contrôle fédéral des finances</b>, le comité d'initiative a lui annoncé un budget de 3,8 millions. Le&nbsp;...",
+    "url": "https://www.google.com/url?rct=j&sa=t&url=https://agefi.com/actualites/politique/tous-les-partis-sauf-ludc-rejettent-linitiative-sur-la-neutralite&ct=ga&cd=CAIyGmMwODIyYzJiMjE0MmU1Njk6Y29tOmZyOlVT&usg=AOvVaw0CZudAMae50EqCAe62oaV2",
+    "msg_id": "rss_Google Alert CDF_tag:google.com,2013:googlealerts/feed:10517467668051365293",
+    "keywords": [
+      "Contrôle fédéral des finances"
+    ],
+    "timestamp": "2026-08-17T13:46:42+00:00"
   }
 ]
