@@ -1292,5 +1292,16 @@
       "Finanzkontrolle"
     ],
     "timestamp": "2026-08-18T03:04:18+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Google Alert CDF",
+    "text": "Rhône 3 : malgré un audit sévère de la Confédération, la «collaboration est bonne - Canal 9\nLe <b>Contrôle Fédéral des Finances</b> a publié lundi son audit sur la mise en oeuvre de la 3e correction du Rhône. Dans ce rapport, l'organe de la&nbsp;...",
+    "url": "https://www.google.com/url?rct=j&sa=t&url=https://canal9.ch/fr/rhone-3-malgre-un-audit-severe-de-la-confederation-la-collaboration-est-bonne-selon-franz-ruppen/&ct=ga&cd=CAIyGmMwODIyYzJiMjE0MmU1Njk6Y29tOmZyOlVT&usg=AOvVaw3aAMa5JyNjC3Y-VW0C8wdi",
+    "msg_id": "rss_Google Alert CDF_tag:google.com,2013:googlealerts/feed:2186427807959788530",
+    "keywords": [
+      "Contrôle Fédéral des Finances"
+    ],
+    "timestamp": "2026-08-18T14:51:50+00:00"
   }
 ]
