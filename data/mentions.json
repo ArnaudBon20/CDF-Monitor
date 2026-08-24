@@ -1348,5 +1348,16 @@
       "EFK"
     ],
     "timestamp": "2026-08-20T03:02:11+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Google Alert EFK",
+    "text": "Agroscope: Umzug vom Liebefeld nach Posieux startet - Der Bund\nDie <b>Eidgenössische Finanzkontrolle</b> hatte die Kosten des Umzugs hinterfragt. Bundespräsident Guy Parmelin besichtigt eine technische Anlage zur&nbsp;...",
+    "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.derbund.ch/agroscope-umzug-vom-liebefeld-nach-posieux-startet-260145156239&ct=ga&cd=CAIyGTUzZTlmZjc5N2JlM2UyNTM6ZnI6ZGU6VVM&usg=AOvVaw0u68pzRPcVDp5zFkoKHnnW",
+    "msg_id": "rss_Google Alert EFK_tag:google.com,2013:googlealerts/feed:3919702925431447136",
+    "keywords": [
+      "Eidgenössische Finanzkontrolle"
+    ],
+    "timestamp": "2026-08-24T03:57:57+00:00"
   }
 ]
