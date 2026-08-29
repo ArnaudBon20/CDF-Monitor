@@ -1493,5 +1493,28 @@
       "CDF"
     ],
     "timestamp": "2026-08-28T09:25:52+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Google Alert EFK",
+    "text": "Fast 8 Millionen Franken für den Abstimmungskampf am 27.09.2026 - News - SRF\nDie <b>Eidgenössische Finanzkontrolle</b> (EFK) hat nun die dafür gemeldeten Kampagnenbudgets veröffentlicht. Insgesamt 8 Millionen Franken lassen sich&nbsp;...",
+    "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.srf.ch/news/schweiz/urnengang-vom-27-september-fast-acht-millionen-franken-fuer-den-abstimmungskampf-budgetiert&ct=ga&cd=CAIyGTUzZTlmZjc5N2JlM2UyNTM6ZnI6ZGU6VVM&usg=AOvVaw1IHxQc1Q9eKFx1UHsESkP_",
+    "msg_id": "rss_Google Alert EFK_tag:google.com,2013:googlealerts/feed:16285081359092738391",
+    "keywords": [
+      "Eidgenössische Finanzkontrolle",
+      "EFK"
+    ],
+    "timestamp": "2026-08-28T19:06:23+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Google Alert EFK",
+    "text": "Christoph Blocher unterstützt seine Neutralitätsinitiative mit über zwei Millionen Franken\n<b>Eidgenössische Finanzkontrolle</b>. NZZ / atz. Die Gegner der Neutralitätsinitiative bestehen aus einer breiten Allianz. Es sind unter anderem der FDP&nbsp;...",
+    "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.nzz.ch/schweiz/christoph-blocher-unterstuetzt-seine-neutralitaetsinitiative-mit-ueber-zwei-millionen-franken-ld.10021421&ct=ga&cd=CAIyGTUzZTlmZjc5N2JlM2UyNTM6ZnI6ZGU6VVM&usg=AOvVaw1op7RPeWL-v4j4JdNCxyaU",
+    "msg_id": "rss_Google Alert EFK_tag:google.com,2013:googlealerts/feed:950041530340033819",
+    "keywords": [
+      "Eidgenössische Finanzkontrolle"
+    ],
+    "timestamp": "2026-08-28T18:36:03+00:00"
   }
 ]
