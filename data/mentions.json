@@ -1574,5 +1574,50 @@
       "Contrôle fédéral des finances"
     ],
     "timestamp": "2026-08-31T07:57:05+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Google Alert CDF",
+    "text": "Ces partis suisses profitent du flou autour de leurs <b>finances</b> - Watson\nPrès de 25 millions de francs. C'est la somme dont les partis ont disposé l'an dernier, selon les derniers chiffres du <b>Contrôle fédéral des finances</b>.",
+    "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.watson.ch/fr/suisse/politique/591776528-ces-partis-suisses-profitent-du-flou-autour-de-leurs-finances&ct=ga&cd=CAIyGmMwODIyYzJiMjE0MmU1Njk6Y29tOmZyOlVT&usg=AOvVaw0o8Su9bbXxoiDOzqeW3z64",
+    "msg_id": "rss_Google Alert CDF_tag:google.com,2013:googlealerts/feed:15964406869600069315",
+    "keywords": [
+      "Contrôle fédéral des finances"
+    ],
+    "timestamp": "2026-08-31T15:00:06+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Google Alert EFK",
+    "text": "Schweizer Parteien melden für 2025 Einnahmen von 24.6 Millionen - News - SRF\nDiese Einnahmen sanken auf 24.6 Millionen Franken, meldet die <b>Eidgenössische Finanzkontrolle</b> – eine Million weniger als noch im Vorjahr. Parteien&nbsp;...",
+    "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.srf.ch/news/schweiz/politikfinanzierung-schweizer-parteien-melden-fuer-2025-einnahmen-von-24-6-millionen&ct=ga&cd=CAIyGTUzZTlmZjc5N2JlM2UyNTM6ZnI6ZGU6VVM&usg=AOvVaw2MdiHcvkhk_iFZWDKOVa4x",
+    "msg_id": "rss_Google Alert EFK_tag:google.com,2013:googlealerts/feed:5373436472772401513",
+    "keywords": [
+      "Eidgenössische Finanzkontrolle"
+    ],
+    "timestamp": "2026-08-31T17:44:59+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Google Alert EFK",
+    "text": "News Partei-Einnahmen in CH 2025 rückläufig - zentralplus\nDie Einnahmen sanken auf 24,6 Millionen Franken, das ist insgesamt eine Million weniger als noch im Vorjahr, wie die <b>Eidgenössische Finanzkontrolle</b>&nbsp;...",
+    "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.zentralplus.ch/news/partei-einnahmen-in-ch-2025-ruecklaeufig-2895471/&ct=ga&cd=CAIyGTUzZTlmZjc5N2JlM2UyNTM6ZnI6ZGU6VVM&usg=AOvVaw0eXvcM0PAfS45_-9RzzfGY",
+    "msg_id": "rss_Google Alert EFK_tag:google.com,2013:googlealerts/feed:9309148322248137259",
+    "keywords": [
+      "Eidgenössische Finanzkontrolle"
+    ],
+    "timestamp": "2026-08-31T16:59:56+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Google Alert EFK",
+    "text": "Parteien melden für 2025 Einnahmen von 24,6 Millionen Franken - Bluewin\nDie <b>Eidgenössische Finanzkontrolle</b> (EFK) hat am Montag die von neun Parteien mitgeteilten Einnahmen veröffentlicht. Diese waren um eine Million&nbsp;...",
+    "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.bluewin.ch/de/news/parteien-melden-fuer-2025-einnahmen-von-24-6-millionen-franken-li.3581834&ct=ga&cd=CAIyGTUzZTlmZjc5N2JlM2UyNTM6ZnI6ZGU6VVM&usg=AOvVaw2oE-ZR67qXzN6mlZfH1aNN",
+    "msg_id": "rss_Google Alert EFK_tag:google.com,2013:googlealerts/feed:405661211551728819",
+    "keywords": [
+      "Eidgenössische Finanzkontrolle",
+      "EFK"
+    ],
+    "timestamp": "2026-08-31T13:23:34+00:00"
   }
 ]
