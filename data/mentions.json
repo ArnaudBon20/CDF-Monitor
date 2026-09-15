@@ -1843,5 +1843,74 @@
       "CDF"
     ],
     "timestamp": "2026-09-14T21:00:01+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "SRF News Schweiz",
+    "text": "Ausbau von Strasse und Bahn – EFK übt scharfe Kritik an «Verkehr'45»\n<img align=\"left\" hspace=\"5\" src=\"https://www.srf.ch/static/cms/images//320ws/423cb74.webp\" />Die Eidgenössische Finanzkontrolle spricht von erheblichen Schwächen. Das Departement von Bundesrat Rösti widerspricht.",
+    "url": "https://www.srf.ch/news/schweiz/ausbau-von-strasse-und-bahn-efk-uebt-scharfe-kritik-an-verkehr-45",
+    "msg_id": "rss_SRF News Schweiz_urn:srf:article:01a0a248-54c7-455b-67a6-72f8a53bc198",
+    "keywords": [
+      "Eidgenössische Finanzkontrolle",
+      "EFK"
+    ],
+    "timestamp": "2026-09-15T02:18:30+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "NZZ Schweiz",
+    "text": "Finanzprüfer zerzausen Röstis Pläne für die Bahn und Strasse\nFür die Finanzkontrolle ist nicht nachvollziehbar, wie der Bund die Ausbauprojekte priorisiert. Besonders scharf kritisieren sie den Grimseltunnel.",
+    "url": "https://www.nzz.ch/schweiz/finanzpruefer-zerzausen-roestis-plaene-fuer-die-bahn-und-strasse-ld.10023392",
+    "msg_id": "rss_NZZ Schweiz_ld.10023392",
+    "keywords": [
+      "Finanzkontrolle"
+    ],
+    "timestamp": "2026-09-15T03:30:00+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Le Temps",
+    "text": "Albert Rösti: un fonceur à l’arrêt\n<img src=\"https://letemps-17455.kxcdn.com/photos/f6715bac-ec92-4fb5-bbc2-9df9bb64612b/medium\" /><p>ÉDITORIAL. Le conseiller fédéral UDC donne toujours l’impression d’aller vite: il multiplie les annonces, ouvre des chantiers. Mais aujourd’hui, les grands projets s’empilent, les procédures s’allongen",
+    "url": "https://www.letemps.ch/articles/albert-rosti-un-fonceur-a-l-arret",
+    "msg_id": "rss_Le Temps_https://www.letemps.ch/articles/albert-rosti-un-fonceur-a-l-arret",
+    "keywords": [
+      "Contrôle fédéral des finances"
+    ],
+    "timestamp": "2026-09-15T02:30:09+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Google Alert CDF",
+    "text": "Le <b>Contrôle fédéral des finances</b> étrille le projet Transports'45 - SWI swissinfo.ch\nDans un audit publié lundi, le <b>Contrôle fédéral des finances</b> (CDF) a salué l'approche transversale entre les trois types d'infrastructures. Il a&nbsp;...",
+    "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.swissinfo.ch/fre/le-contr%25C3%25B4le-f%25C3%25A9d%25C3%25A9ral-des-finances-%25C3%25A9trille-le-projet-transports%252745/92057443&ct=ga&cd=CAIyGmMwODIyYzJiMjE0MmU1Njk6Y29tOmZyOlVT&usg=AOvVaw3uUe3bAb683JbwGh0n7w_h",
+    "msg_id": "rss_Google Alert CDF_tag:google.com,2013:googlealerts/feed:5097727807621425147",
+    "keywords": [
+      "Contrôle fédéral des finances",
+      "CDF"
+    ],
+    "timestamp": "2026-09-15T01:34:05+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Google Alert CDF",
+    "text": "Transports'45: le <b>Contrôle fédéral des finances</b> étrille la méthode d'Albert Rösti - Le Temps\nCe lundi, le <b>Contrôle fédéral des finances</b> (CDF) publie un audit pour le moins critique, où il identifie les «importantes faiblesses» de Transports'45&nbsp;...",
+    "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.letemps.ch/suisse/transports-45-le-controle-federal-des-finances-etrille-la-methode-d-albert-rosti&ct=ga&cd=CAIyGmMwODIyYzJiMjE0MmU1Njk6Y29tOmZyOlVT&usg=AOvVaw3WRgg2mfR4lYLAVW4TTccG",
+    "msg_id": "rss_Google Alert CDF_tag:google.com,2013:googlealerts/feed:17091574265815943078",
+    "keywords": [
+      "Contrôle fédéral des finances",
+      "CDF"
+    ],
+    "timestamp": "2026-09-15T01:31:28+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Google Alert CDF",
+    "text": "Un retraité condamné pour avoir menacé Albert Rösti - Radio Lac\nLe <b>Contrôle fédéral des finances</b> étrille le projet Transports'45. Publié. Il y a 3 heures. le. 14 septembre 2026. De. ATS KEYSTONE. Le ministre des&nbsp;...",
+    "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.radiolac.ch/actualite/suisse/un-retraite-condamne-pour-avoir-menace-albert-rosti/&ct=ga&cd=CAIyGmMwODIyYzJiMjE0MmU1Njk6Y29tOmZyOlVT&usg=AOvVaw1iJIBuB5Nqsz78HTfTIk8f",
+    "msg_id": "rss_Google Alert CDF_tag:google.com,2013:googlealerts/feed:9995793575526719204",
+    "keywords": [
+      "Contrôle fédéral des finances"
+    ],
+    "timestamp": "2026-09-15T00:07:01+00:00"
   }
 ]
