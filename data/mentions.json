@@ -1912,5 +1912,17 @@
       "Contrôle fédéral des finances"
     ],
     "timestamp": "2026-09-15T00:07:01+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "SRF News Schweiz",
+    "text": "Scharfes Urteil der EFK – Parlament will «Verkehr '45» nach Kritik genau prüfen\n<img align=\"left\" hspace=\"5\" src=\"https://www.srf.ch/static/cms/images//320ws/a8ce8a4.webp\" />Nach scharfem Urteil der Eidgenössischen Finanzkontrolle am Ausbauplan Verkehr 2045 wächst auch die Kritik im Parlament.",
+    "url": "https://www.srf.ch/news/schweiz/scharfes-urteil-der-efk-parlament-will-verkehr-45-nach-kritik-genau-pruefen",
+    "msg_id": "rss_SRF News Schweiz_urn:srf:article:01a0a45c-882e-9b6c-89b6-554e9fb45283",
+    "keywords": [
+      "EFK",
+      "Finanzkontrolle"
+    ],
+    "timestamp": "2026-09-15T14:32:34+00:00"
   }
 ]
