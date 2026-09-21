@@ -2186,5 +2186,16 @@
       "EFK"
     ],
     "timestamp": "2026-09-19T17:38:00+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Google Alert EFK",
+    "text": "Paul Rechsteiner: Die Ostschweiz wird verröstet - Liechtensteiner Vaterland\nWie wenig das Werk Weidmanns taugt, ist seit letzter Woche auch amtlich bestätigt. Die <b>Eidgenössische Finanzkontrolle</b> ortet schwerste inhaltliche und&nbsp;...",
+    "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.vaterland.li/regional/ostschweiz/paul-rechsteiner-die-ostschweiz-wird-verroestet-art-760702&ct=ga&cd=CAIyGTUzZTlmZjc5N2JlM2UyNTM6ZnI6ZGU6VVM&usg=AOvVaw3pgFWDgBsvOpUkISVMn7Ac",
+    "msg_id": "rss_Google Alert EFK_tag:google.com,2013:googlealerts/feed:630767429019586068",
+    "keywords": [
+      "Eidgenössische Finanzkontrolle"
+    ],
+    "timestamp": "2026-09-21T04:21:56+00:00"
   }
 ]
