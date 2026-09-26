@@ -2252,5 +2252,39 @@
       "Eidgenössische Finanzkontrolle"
     ],
     "timestamp": "2026-09-25T20:43:16+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "NZZ Schweiz",
+    "text": "Trotz Fixpreisdebakel fliessen Milliarden in die Aufrüstung: Ist der nächste Flop nur eine Frage der Zeit?\nJene, die das Drama um den Kauf des F-35 aufgearbeitet haben, rechnen fest damit, dass das Verteidigungsdepartement bald wieder strauchelt. Und der ehemalige Chef der Finanzkontrolle bringt eine Strafuntersuchung ins Spiel.",
+    "url": "https://www.nzz.ch/schweiz/trotz-fix-preis-debakel-fliessen-milliarden-in-die-aufruestung-ist-der-naechste-flop-nur-eine-frage-der-zeit-ld.10025182",
+    "msg_id": "rss_NZZ Schweiz_ld.10025182",
+    "keywords": [
+      "Finanzkontrolle"
+    ],
+    "timestamp": "2026-09-26T19:45:00+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Google Alert CDF",
+    "text": "Armée, prestations sociales: il va falloir faire des arbitrages - Watson\nNils Soguel: Le <b>Contrôle fédéral des finances</b> et la Commission de gestion du Conseil national se sont penchés sur la question. Je n'ai pas eu&nbsp;...",
+    "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.watson.ch/fr/suisse/conseil-federal/700317254-armee-prestations-sociales-il-va-falloir-faire-des-arbitrages&ct=ga&cd=CAIyGmMwODIyYzJiMjE0MmU1Njk6Y29tOmZyOlVT&usg=AOvVaw2PDGj3b9k-Qx0nL-6Fu26-",
+    "msg_id": "rss_Google Alert CDF_tag:google.com,2013:googlealerts/feed:15469660426937379734",
+    "keywords": [
+      "Contrôle fédéral des finances"
+    ],
+    "timestamp": "2026-09-26T18:54:17+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Google Alert CDF",
+    "text": "Et si les assurés prenaient le pouvoir du système de santé? - Le Temps\nLe deuxième choc de l'été est tombé début août, sous la forme d'un rapport du <b>Contrôle fédéral des finances</b> (CDF). Chaque année, l'industrie&nbsp;...",
+    "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.letemps.ch/suisse/et-si-les-assures-prenaient-le-pouvoir-sur-le-systeme-de-sante&ct=ga&cd=CAIyGmMwODIyYzJiMjE0MmU1Njk6Y29tOmZyOlVT&usg=AOvVaw1cUlnBJEhJ91onJXMizD-p",
+    "msg_id": "rss_Google Alert CDF_tag:google.com,2013:googlealerts/feed:1447506496219034191",
+    "keywords": [
+      "CDF",
+      "Contrôle fédéral des finances"
+    ],
+    "timestamp": "2026-09-26T18:41:24+00:00"
   }
 ]
