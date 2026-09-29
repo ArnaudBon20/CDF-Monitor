@@ -2342,5 +2342,28 @@
       "CDF"
     ],
     "timestamp": "2026-09-28T15:36:44+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Google Alert EFK",
+    "text": "Die E-ID stolpert über genau das Problem, das sie lösen sollte - Bluewin\nBereits im Februar hatte die <b>Eidgenössische Finanzkontrolle</b> das Projekt als Reputationsrisiko für den Bund bezeichnet und gemahnt, beim Vertrauen&nbsp;...",
+    "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.bluewin.ch/de/digital/die-e-id-stolpert-ueber-genau-das-problem-das-sie-loesen-sollte-li.3616120&ct=ga&cd=CAIyGTUzZTlmZjc5N2JlM2UyNTM6ZnI6ZGU6VVM&usg=AOvVaw2TDtZg8EUSZcwZaHHVfnC4",
+    "msg_id": "rss_Google Alert EFK_tag:google.com,2013:googlealerts/feed:17016695098297026353",
+    "keywords": [
+      "Eidgenössische Finanzkontrolle"
+    ],
+    "timestamp": "2026-09-28T22:48:22+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Google Alert EFK",
+    "text": "Die ÖV-Branche unterstützt Ausbaupläne des Bundes, sieht aber «Korrekturbedarf» - NZZ\nUnd jüngst zerzauste die <b>Eidgenössische Finanzkontrolle</b> (EFK) das Vorgehen von Röstis Departement für Umwelt, Verkehr, Energie und Kommunikation&nbsp;...",
+    "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.nzz.ch/schweiz/kleiner-ist-besser-als-groesser-die-oev-branche-unterstuetzt-die-ausbauplaene-des-bundes-sieht-aber-korrekturbedarf-insbesondere-bei-der-finanzierung-ld.10025749&ct=ga&cd=CAIyGTUzZTlmZjc5N2JlM2UyNTM6ZnI6ZGU6VVM&usg=AOvVaw3FVX_TH3NZx2Wva8vz1Gsp",
+    "msg_id": "rss_Google Alert EFK_tag:google.com,2013:googlealerts/feed:7554000825992931823",
+    "keywords": [
+      "EFK",
+      "Eidgenössische Finanzkontrolle"
+    ],
+    "timestamp": "2026-09-28T22:45:31+00:00"
   }
 ]
