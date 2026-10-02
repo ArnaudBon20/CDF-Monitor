@@ -2455,5 +2455,16 @@
       "efk"
     ],
     "timestamp": "2026-09-30T15:21:25+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Google Alert CDF",
+    "text": "F-35: Un Vert'libéral veut surveiller les achats de l'armée - Blick\n... contrôle. Cette nouvelle autorité examinerait attentivement les acquisitions pour empêcher de nouveaux fiascos ... <b>Contrôle fédéral des finances</b>.».",
+    "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.blick.ch/fr/suisse/f-35-un-vertliberal-veut-surveiller-les-achats-de-larmee/9m8szhz&ct=ga&cd=CAIyGmMwODIyYzJiMjE0MmU1Njk6Y29tOmZyOlVT&usg=AOvVaw3dRaO8IUjRcomHK8tw3wkC",
+    "msg_id": "rss_Google Alert CDF_tag:google.com,2013:googlealerts/feed:6044277712119878413",
+    "keywords": [
+      "Contrôle fédéral des finances"
+    ],
+    "timestamp": "2026-10-02T03:13:30+00:00"
   }
 ]
