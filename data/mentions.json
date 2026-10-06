@@ -2478,5 +2478,49 @@
       "EFK"
     ],
     "timestamp": "2026-10-03T20:42:58+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Google Alert CDF",
+    "text": "L'assurance chômage enregistre un déficit de 249 millions de francs | agefi.com\nL'année précédente, en 2024, l'AC avait encore enregistré un excédent de 1,43 milliard de francs. Le <b>Contrôle fédéral des finances</b> a déjà révisé les&nbsp;...",
+    "url": "https://www.google.com/url?rct=j&sa=t&url=https://agefi.com/actualites/macroeconomie/lassurance-chomage-enregistre-un-deficit-de-249-millions-de-francs&ct=ga&cd=CAIyGmMwODIyYzJiMjE0MmU1Njk6Y29tOmZyOlVT&usg=AOvVaw1tNMiC-3Hc9fhbpANZKpzl",
+    "msg_id": "rss_Google Alert CDF_tag:google.com,2013:googlealerts/feed:12943981817377218496",
+    "keywords": [
+      "Contrôle fédéral des finances"
+    ],
+    "timestamp": "2026-10-06T11:00:50+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Google Alert CDF",
+    "text": "Suppression de contributions L'assurance chômage enregistre un déficit de 249 millions\nLe <b>Contrôle fédéral des finances</b> a déjà révisé les comptes annuels de 2025. L'approbation formelle par le Conseil fédéral n'a toutefois pas encore&nbsp;...",
+    "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.blick.ch/fr/suisse/chomage-lassurance-enregistre-un-deficit-de-249-millions/3lrbt9r&ct=ga&cd=CAIyGmMwODIyYzJiMjE0MmU1Njk6Y29tOmZyOlVT&usg=AOvVaw3eJYp6bPFaaJSgBbDHph9O",
+    "msg_id": "rss_Google Alert CDF_tag:google.com,2013:googlealerts/feed:18017895930445415833",
+    "keywords": [
+      "Contrôle fédéral des finances"
+    ],
+    "timestamp": "2026-10-06T09:45:09+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Google Alert CDF",
+    "text": "Nouveaux projets clés de la transformation numérique et de l'informatique\n... <b>Contrôle fédéral des finances</b>. Ces projets relèvent toujours de la ... La Chancellerie fédérale suisse - l'état-major du Conseil fédéral.",
+    "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.vbs.admin.ch/fr/newnsb/3zIflyRuW6a-&ct=ga&cd=CAIyGmMwODIyYzJiMjE0MmU1Njk6Y29tOmZyOlVT&usg=AOvVaw1ziz8YHOK3N2JviHo6oV4T",
+    "msg_id": "rss_Google Alert CDF_tag:google.com,2013:googlealerts/feed:8572754773432125596",
+    "keywords": [
+      "Contrôle fédéral des finances"
+    ],
+    "timestamp": "2026-10-06T09:13:55+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Google Alert CDF",
+    "text": "Assurance-chômage 2025 : un exercice annuel légèrement négatif sur fond de hausse du chômage\nAu moment de la publication de ces chiffres, le <b>Contrôle fédéral des finances</b> a révisé la clôture de l'exercice 2025. Le Conseil fédéral doit encore&nbsp;...",
+    "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.admin.ch/fr/newnsb/SBV7QlmWEEXe&ct=ga&cd=CAIyGmMwODIyYzJiMjE0MmU1Njk6Y29tOmZyOlVT&usg=AOvVaw1-V1Tj2JUpZeoSYqOfj2uc",
+    "msg_id": "rss_Google Alert CDF_tag:google.com,2013:googlealerts/feed:10916363193676132544",
+    "keywords": [
+      "Contrôle fédéral des finances"
+    ],
+    "timestamp": "2026-10-06T07:36:20+00:00"
   }
 ]
