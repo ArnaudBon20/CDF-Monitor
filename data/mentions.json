@@ -2860,5 +2860,16 @@
       "Eidgenössische Finanzkontrolle"
     ],
     "timestamp": "2026-10-30T22:08:11+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "NZZ Schweiz",
+    "text": "Skandale bei Ruag und SBB: Politik will die Aufsicht verbessern\nDie Betrügereien bei den Betrieben des Bundes haben das Parlament aufgeschreckt. Nun wird der Ruf nach besserer Kontrolle laut. Gestärkt werden soll die Eidgenössische Finanzkontrolle.",
+    "url": "https://www.nzz.ch/schweiz/skandale-bei-ruag-und-sbb-wenn-der-bund-privatwirtschaft-spielt-ld.10050319",
+    "msg_id": "rss_NZZ Schweiz_ld.10050319",
+    "keywords": [
+      "Eidgenössische Finanzkontrolle"
+    ],
+    "timestamp": "2026-10-31T20:45:00+00:00"
   }
 ]
