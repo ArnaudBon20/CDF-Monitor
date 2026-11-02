@@ -2883,5 +2883,30 @@
       "EFK"
     ],
     "timestamp": "2026-11-01T07:17:09+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Le Temps",
+    "text": "Problèmes de sécurité, risques sur les données, sauvegardes problématiques: un rapport pointe les zones d’ombre entourant Microsoft 365\n<img src=\"https://letemps-17455.kxcdn.com/photos/b94b13d6-eea3-4c1a-b2dc-2433459cae7b/medium\" /><p>Le Contrôle fédéral des finances vient de publier une analyse approfondie de la mise en place de Microsoft 365 au sein de l’administration fédérale. De nombreuses leçons sont à tirer de ce rapport déta",
+    "url": "https://www.letemps.ch/articles/problemes-de-securite-risques-sur-les-donnees-sauvegardes-problematiques-un-rapport-pointe-les-zones-d-ombre-entourant-microsoft-365",
+    "msg_id": "rss_Le Temps_https://www.letemps.ch/articles/problemes-de-securite-risques-sur-les-donnees-sauvegardes-problematiques-un-rapport-pointe-les-zones-d-ombre-entourant-microsoft-365",
+    "keywords": [
+      "efk",
+      "CDF",
+      "Contrôle fédéral des finances"
+    ],
+    "timestamp": "2026-11-02T06:14:34+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Google Alert CDF",
+    "text": "Fraudes chez RUAG et CFF : les élus réclament une surveillance renforcée - 20 minutes\nPlusieurs élus réclament davantage de moyens et de pouvoirs pour le <b>Contrôle fédéral des finances</b> (CDF), rapporte la «NZZ am Sonntag». Publicité.",
+    "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.20min.ch/fr/story/ruag-cff-fraudes-a-repetition-pourquoi-les-controles-n-ont-ils-pas-suffi-103659905&ct=ga&cd=CAIyGmMwODIyYzJiMjE0MmU1Njk6Y29tOmZyOlVT&usg=AOvVaw0CjHkoPb3FWnm6gBjbLggt",
+    "msg_id": "rss_Google Alert CDF_tag:google.com,2013:googlealerts/feed:9331961253611269946",
+    "keywords": [
+      "CDF",
+      "Contrôle fédéral des finances"
+    ],
+    "timestamp": "2026-11-02T02:21:56+00:00"
   }
 ]
