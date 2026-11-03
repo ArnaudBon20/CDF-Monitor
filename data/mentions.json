@@ -2920,5 +2920,62 @@
       "Eidgenössische Finanzkontrolle"
     ],
     "timestamp": "2026-11-02T15:49:48+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "SRF News Schweiz",
+    "text": "Kritischer Aufsichtsbericht – Immobilien-Organisation der Armee kann Aufgabe nicht erfüllen\n<img align=\"left\" hspace=\"5\" src=\"https://www.srf.ch/static/cms/images//320ws/dbd32f.webp\" />Die Armee will ihren Immobilienbestand ausbauen. Doch die Eidgenössische Finanzkontrolle warnt vor Fehlinvestitionen.",
+    "url": "https://www.srf.ch/news/schweiz/kritischer-aufsichtsbericht-immobilien-organisation-der-armee-kann-aufgabe-nicht-erfuellen",
+    "msg_id": "rss_SRF News Schweiz_urn:srf:article:01a19e73-5ee4-d6c5-f4cc-fe18683ddbcf",
+    "keywords": [
+      "Eidgenössische Finanzkontrolle"
+    ],
+    "timestamp": "2026-11-02T23:35:35+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "NZZ Schweiz",
+    "text": "MELDUNGEN SCHWEIZ - Finanzkontrolle kritisiert Planung bei Immobilien der Schweizer Armee\nDie neuesten Meldungen aus der Schweiz.",
+    "url": "https://www.nzz.ch/schweiz/schweiz-die-neusten-meldungen-ld.10026748",
+    "msg_id": "rss_NZZ Schweiz_ld.10026748",
+    "keywords": [
+      "Finanzkontrolle"
+    ],
+    "timestamp": "2026-11-03T09:56:18+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Google Alert CDF",
+    "text": "Problèmes de sécurité, risques sur les données, sauvegardes problématiques - Le Temps\nLe <b>Contrôle fédéral des finances</b> vient de publier une analyse approfondie de la mise en place de Microsoft 365 au sein de l'administration fédérale.",
+    "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.letemps.ch/cyber/problemes-de-securite-risques-sur-les-donnees-sauvegardes-problematiques-un-rapport-pointe-les-zones-d-ombre-entourant-microsoft-365&ct=ga&cd=CAIyGmMwODIyYzJiMjE0MmU1Njk6Y29tOmZyOlVT&usg=AOvVaw1NCabJWbUNTSA-4Q8UYL-p",
+    "msg_id": "rss_Google Alert CDF_tag:google.com,2013:googlealerts/feed:1195352618555342130",
+    "keywords": [
+      "Contrôle fédéral des finances"
+    ],
+    "timestamp": "2026-11-03T01:17:13+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Google Alert CDF",
+    "text": "Martin Pfister: Après Ruag, la pression monte sur le DDPS - Blick\nIl souhaite renforcer le <b>Contrôle fédéral des finances</b> (CDF). C'est cet organe qui a mis au jour les irrégularités présumées chez Ruag et qui&nbsp;...",
+    "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.blick.ch/fr/suisse/martin-pfister-apres-ruag-la-pression-monte-sur-le-ddps/5dchm70&ct=ga&cd=CAIyGmMwODIyYzJiMjE0MmU1Njk6Y29tOmZyOlVT&usg=AOvVaw2AL3Aw8XoQ7hpm-HoaY5gL",
+    "msg_id": "rss_Google Alert CDF_tag:google.com,2013:googlealerts/feed:3832085948494626678",
+    "keywords": [
+      "CDF",
+      "Contrôle fédéral des finances"
+    ],
+    "timestamp": "2026-11-03T01:16:35+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Google Alert CDF",
+    "text": "L'armée suisse gère son parc immobilier à vue et accumule les milliards de retard - Bluewin\nFin 2025, le portefeuille géré par ar Immo comptait emviron 21'600 objets, dont 6'070 bâtiments, rappelle le <b>Contrôle fédéral des finances</b> (CDF) dans&nbsp;...",
+    "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.bluewin.ch/fr/infos/suisse/le-parc-immobilier-de-l-arm-e-g-r-sans-boussole-claire-dit-le-cdf-li.3658194&ct=ga&cd=CAIyGmMwODIyYzJiMjE0MmU1Njk6Y29tOmZyOlVT&usg=AOvVaw3vnXLZ90aKa9rQw3lsO2F5",
+    "msg_id": "rss_Google Alert CDF_tag:google.com,2013:googlealerts/feed:15629595378371314089",
+    "keywords": [
+      "CDF",
+      "Contrôle fédéral des finances"
+    ],
+    "timestamp": "2026-11-03T00:55:43+00:00"
   }
 ]
