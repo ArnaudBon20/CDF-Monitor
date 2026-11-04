@@ -3026,5 +3026,40 @@
       "Eidgenössische Finanzkontrolle"
     ],
     "timestamp": "2026-11-03T20:21:48+00:00"
+  },
+  {
+    "source": "telegram",
+    "channel": "@insideparadeplatz",
+    "text": "Die wahren Versager im Fall RuagUm Einsichts-, Prüf- und Zugriffsrechte wird hart verhandelt. Dann wird der Vertrag abgelegt. Niemand ist zuständig, keiner schaut hin. Zehn Jahre, kein einziger Kontrollgang: VBS, Armasuisse und Logistikbasis der Armee – die vereinbarten Kontrollrechte gegenüber der RUAG wurden über Jahre nicht ausgeübt. Ein Befund daraus betrifft nicht den Rüstungsbetrieb, sondern den Bund als Eigner. Die Eidgenössische Finanzkontrolle (EFK) prüfte …Read more...",
+    "url": "https://t.me/insideparadeplatz/9030",
+    "msg_id": "tg_insideparadeplatz_9030",
+    "keywords": [
+      "EFK",
+      "Eidgenössische Finanzkontrolle"
+    ],
+    "timestamp": "2026-11-04T15:52:24+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Google Alert CDF",
+    "text": "Conseil <b>fédéral</b> : Franz Ruppen candidat, la surprise du Valais - RTS\nLe <b>Contrôle fédéral des finances</b> met en garde le Valais dans sa gestion de la correction du Rhône. Valais. le 18 août 2026. Derniers articles - Suisse.",
+    "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.rts.ch/info/suisse/2026/article/conseil-federal-franz-ruppen-candidat-la-surprise-du-valais-29405331.html&ct=ga&cd=CAIyGmMwODIyYzJiMjE0MmU1Njk6Y29tOmZyOlVT&usg=AOvVaw0SAqcxsX565IkUyUNdiEP2",
+    "msg_id": "rss_Google Alert CDF_tag:google.com,2013:googlealerts/feed:13485355193512149335",
+    "keywords": [
+      "Contrôle fédéral des finances"
+    ],
+    "timestamp": "2026-11-04T18:10:04+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Google Alert EFK",
+    "text": "Die wahren Versager im Fall Ruag - Inside Paradeplatz\nDie <b>Eidgenössische Finanzkontrolle</b> (EFK) prüfte Ende 2024 die Konsignationslager der Raupenfahrzeuge bei der RUAG, Prüfzeitraum 2014 bis 2023 (EFK-&nbsp;...",
+    "url": "https://www.google.com/url?rct=j&sa=t&url=https://insideparadeplatz.ch/2026/11/04/die-wahren-versager-im-fall-ruag/&ct=ga&cd=CAIyGTUzZTlmZjc5N2JlM2UyNTM6ZnI6ZGU6VVM&usg=AOvVaw0Uf-kfphY8r70LkUpEKNod",
+    "msg_id": "rss_Google Alert EFK_tag:google.com,2013:googlealerts/feed:11210976326396513895",
+    "keywords": [
+      "EFK",
+      "Eidgenössische Finanzkontrolle"
+    ],
+    "timestamp": "2026-11-04T15:55:59+00:00"
   }
 ]
