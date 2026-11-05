@@ -3084,5 +3084,16 @@
       "CDF"
     ],
     "timestamp": "2026-11-04T22:00:08+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "SRF News Schweiz",
+    "text": "Stromreserve im Winter – Zweifel an geplanten Reservekraftwerken werden grösser\n<img align=\"left\" hspace=\"5\" src=\"https://www.srf.ch/static/cms/images//320ws/e310ee.webp\" />Nach den Energiepolitikern im Nationalrat stellt nun auch die Finanzkontrolle die geplanten Reservekraftwerke in Frage.",
+    "url": "https://www.srf.ch/news/schweiz/stromreserve-im-winter-zweifel-an-geplanten-reservekraftwerken-werden-groesser",
+    "msg_id": "rss_SRF News Schweiz_urn:srf:article:01a1a732-6653-79ee-c6cd-179f6ff96075",
+    "keywords": [
+      "Finanzkontrolle"
+    ],
+    "timestamp": "2026-11-05T04:58:00+00:00"
   }
 ]
