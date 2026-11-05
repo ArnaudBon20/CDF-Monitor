@@ -3061,5 +3061,28 @@
       "Eidgenössische Finanzkontrolle"
     ],
     "timestamp": "2026-11-04T15:55:59+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "NZZ Schweiz",
+    "text": "Überdimensioniert und unnötig teuer: Die Finanzkontrolle zerpflückt auch Albert Röstis Notkraftwerke\nFür 2,3 Milliarden Franken will der Energieminister vier neue Reservekraftwerke bauen. Laut den Finanzprüfern des Bundes geht es auch günstiger.",
+    "url": "https://www.nzz.ch/schweiz/ueberdimensioniert-und-unnoetig-teuer-die-finanzkontrolle-zerpflueckt-auch-albert-roestis-notkraftwerke-ld.10053223",
+    "msg_id": "rss_NZZ Schweiz_ld.10053223",
+    "keywords": [
+      "Finanzkontrolle"
+    ],
+    "timestamp": "2026-11-04T22:00:00+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Le Temps",
+    "text": "Aides covid: des entreprises distribuent encore des dividendes interdits\n<img src=\"https://letemps-17455.kxcdn.com/photos/072c5722-6984-424a-9d82-7b23ebd30ee2/medium\" /><p>Six ans après la pandémie, des entreprises aidées par la Confédération continuent de verser des dividendes à leurs actionnaires, alors que la loi le leur interdit. Le Contrôle fédéral des finances a re",
+    "url": "https://www.letemps.ch/suisse/aides-covid-des-entreprises-distribuent-encore-des-dividendes-interdits",
+    "msg_id": "rss_Le Temps_https://www.letemps.ch/articles/aides-covid-des-entreprises-distribuent-encore-des-dividendes-interdits",
+    "keywords": [
+      "Contrôle fédéral des finances",
+      "CDF"
+    ],
+    "timestamp": "2026-11-04T22:00:08+00:00"
   }
 ]
