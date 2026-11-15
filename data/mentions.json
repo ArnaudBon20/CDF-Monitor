@@ -3247,5 +3247,16 @@
       "CDF"
     ],
     "timestamp": "2026-11-12T10:42:30+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Google Alert EFK",
+    "text": "Hochschulpraktikant/-in Evaluation bei <b>Eidgenössische Finanzkontrolle</b> - local-job.ch\nJob als Hochschulpraktikant/-in Evaluation bei <b>Eidgenössische Finanzkontrolle</b> in Bern BE. Bern, Schweiz 80-100% Diesen…",
+    "url": "https://www.google.com/url?rct=j&sa=t&url=https://local-job.ch/job/hochschulpraktikant-in-evaluation-3843037/&ct=ga&cd=CAIyGTUzZTlmZjc5N2JlM2UyNTM6ZnI6ZGU6VVM&usg=AOvVaw0nYV6q97brspQkfQvfmo-w",
+    "msg_id": "rss_Google Alert EFK_tag:google.com,2013:googlealerts/feed:2688298122662265254",
+    "keywords": [
+      "Eidgenössische Finanzkontrolle"
+    ],
+    "timestamp": "2026-11-15T02:33:44+00:00"
   }
 ]
