@@ -3350,5 +3350,29 @@
       "contrôle Fédéral des Finances"
     ],
     "timestamp": "2026-11-23T10:06:01+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Google Alert CDF",
+    "text": "Audit du projet clé DaziT avec accent sur le transfert dans l'exploitation\nLe <b>Contrôle fédéral des finances</b> (CDF) se penche sur ce programme pour la cinquième fois déjà. Le CDF a examiné pour la phase finale du programme si&nbsp;...",
+    "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.admin.ch/fr/newnsb/9VMdYKe-gnX-&ct=ga&cd=CAIyGmMwODIyYzJiMjE0MmU1Njk6Y29tOmZyOlVT&usg=AOvVaw1KrueJF04it0YmX9GTZdin",
+    "msg_id": "rss_Google Alert CDF_tag:google.com,2013:googlealerts/feed:4533934459892928323",
+    "keywords": [
+      "CDF",
+      "Contrôle fédéral des finances"
+    ],
+    "timestamp": "2026-11-23T22:02:13+00:00"
+  },
+  {
+    "source": "rss",
+    "channel": "Google Alert EFK",
+    "text": "Prüfung des Schlüsselprojektes DaziT mit Schwerpunkt Übergabe in den Betrieb\nKontakt für Medienschaffende. <b>Eidgenössische Finanzkontrolle</b> Kommunikation Monbijoustrasse 45. CH-3003 Bern +41 58 463 11 11 &middot; kommunikation@efk.admin&nbsp;...",
+    "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.admin.ch/de/newnsb/9VMdYKe-gnX-&ct=ga&cd=CAIyGTUzZTlmZjc5N2JlM2UyNTM6ZnI6ZGU6VVM&usg=AOvVaw2BiazcYlvZWgSFPS-BBsFg",
+    "msg_id": "rss_Google Alert EFK_tag:google.com,2013:googlealerts/feed:17389356103601111296",
+    "keywords": [
+      "efk",
+      "Eidgenössische Finanzkontrolle"
+    ],
+    "timestamp": "2026-11-23T22:02:12+00:00"
   }
 ]
